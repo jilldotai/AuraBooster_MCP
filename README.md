@@ -1,8 +1,7 @@
 # Ora Marketing & AI Governance Agent
 
 > **Build with Gemini XPRIZE Submission Component**  
-> An autonomous Marketing, Growth, and Responsible AI Governance Agent powered by **Gemini 2.5 Flash on Google Cloud Vertex AI**.  
-> Aligned with **IBM AI Agents in Marketing** and **IBM watsonx.governance** standards.
+> Autonomous marketing engine and enterprise AI governance console for the Build with Gemini XPRIZE. Powered by **Gemini 2.5 Flash on Google Cloud Vertex AI**, featuring persona-driven multi-channel campaign generation, watsonx-aligned safety guardrails, and real-time evidence tracking.
 
 ---
 
