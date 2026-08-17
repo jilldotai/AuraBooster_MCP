@@ -1,6 +1,7 @@
-  "name": "jill-revenue-agent",
-  "version": "0.1.0",
-  "description": "AI-operated lead-to-cash revenue operator and autonomous marketing/governance engine for field-service businesses. Built for Build with Gemini XPRIZE.",
+{
+  "name": "ora-marketing-agent",
+  "version": "1.0.0",
+  "description": "Autonomous Marketing & AI Governance Agent for the Build with Gemini XPRIZE, aligned with IBM AI Agents in Marketing and watsonx.governance standards.",
   "license": "Apache-2.0",
   "private": true,
   "type": "module",
@@ -8,13 +9,11 @@
     "dev": "tsx watch src/server.ts",
     "build": "tsc",
     "start": "node dist/server.js",
-    "test": "vitest run",
-    "ora:dev": "tsx watch src/marketing-agent/server.ts",
-    "ora:start": "tsx src/marketing-agent/server.ts",
-    "ora:cli": "tsx src/marketing-agent/cli.ts",
-    "ora:post": "tsx src/marketing-agent/cli.ts post",
-    "ora:milestone": "tsx src/marketing-agent/cli.ts milestone",
-    "ora:status": "tsx src/marketing-agent/cli.ts status"
+    "cli": "tsx src/cli.ts",
+    "cli:post": "tsx src/cli.ts post",
+    "cli:milestone": "tsx src/cli.ts milestone",
+    "cli:status": "tsx src/cli.ts status",
+    "cli:doc": "tsx src/cli.ts doc"
   },
   "dependencies": {
     "@google/genai": "^1.30.0",
