@@ -1,6 +1,7 @@
-{
   "name": "jill-revenue-agent",
   "version": "0.1.0",
+  "description": "AI-operated lead-to-cash revenue operator and autonomous marketing/governance engine for field-service businesses. Built for Build with Gemini XPRIZE.",
+  "license": "Apache-2.0",
   "private": true,
   "type": "module",
   "scripts": {
