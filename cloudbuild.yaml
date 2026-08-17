@@ -1,0 +1,14 @@
+steps:
+  - name: gcr.io/cloud-builders/gcloud
+    args:
+      - run
+      - deploy
+      - jill-revenue-agent
+      - --source=.
+      - --region=${_REGION}
+      - --allow-unauthenticated
+      - --set-env-vars=GOOGLE_GENAI_USE_VERTEXAI=true,GOOGLE_CLOUD_LOCATION=global,GOOGLE_CLOUD_PROJECT=$PROJECT_ID
+      - --set-secrets=ADMIN_TOKEN=jill-admin-token:latest,EFT_BANK_DETAILS=jill-eft-details:latest
+      - --service-account=jill-agent-sa@$PROJECT_ID.iam.gserviceaccount.com
+substitutions:
+  _REGION: us-central1

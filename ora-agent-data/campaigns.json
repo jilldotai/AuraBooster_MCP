@@ -1,0 +1,28 @@
+[
+  {
+    "id": "camp_1786948497762_fvgb5",
+    "timestamp": "2026-08-17T06:34:57.762Z",
+    "brand": "Ora",
+    "topic": "Launching Jill Revenue Agent with Ora Marketing for XPRIZE",
+    "channel": "x_twitter",
+    "tone": "build_in_public",
+    "content": {
+      "hook": "🚀 Scaling small business growth with Ora & autonomous Gemini AI agents!",
+      "post": "Traditional workflows are slow. With Ora and our Gemini-powered revenue operator, small service businesses convert field voice notes into approved quotes and verified revenue in seconds.\n\nBuilt for the Build with Gemini XPRIZE.\n\nCheck our progress live.",
+      "thread": [
+        "1/4 Most service pros lose 10+ hours a week estimating quotes after sunset. Here is how Ora changes that: 🧵",
+        "2/4 Voice notes from job sites are transcribed and drafted into compliant, non-binding quote proposals instantly via Gemini 2.5 Flash on Vertex AI.",
+        "3/4 Human-in-the-loop safeguards ensure zero auto-spending, full price approval, and tamper-proof audit trails.",
+        "4/4 Follow along as we push updates for the Build with Gemini XPRIZE!"
+      ],
+      "hashtags": [
+        "#BuildWithGemini",
+        "#XPRIZE",
+        "#AIAgents",
+        "#SmallBizTech",
+        "#Ora"
+      ],
+      "callToAction": "Reply or DM for early pilot access."
+    }
+  }
+]
